@@ -5,7 +5,7 @@ import nltk
 import os
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk.util import ngrams
-from utils import tokenize_and_remove_stop_words, tokenize_and_stem, \
+from prueba_paquete.utils import tokenize_and_remove_stop_words, tokenize_and_stem, \
                   clean_emojis, translate_doc, mark_negation_es
 
 class SentimentAnalyzer:

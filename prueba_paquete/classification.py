@@ -3,8 +3,8 @@ from nltk import NaiveBayesClassifier, DecisionTreeClassifier
 from nltk.metrics import precision, recall, f_measure
 from nltk.classify import apply_features, accuracy
 from nltk.classify.scikitlearn import SklearnClassifier
-from utils import clean_html_tags, shuffled, tokenize_and_stem
-from concept_extraction import ConceptExtractor
+from prueba_paquete.utils import clean_html_tags, shuffled, tokenize_and_stem
+from prueba_paquete.concept_extraction import ConceptExtractor
 from sklearn.svm import LinearSVC
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction import DictVectorizer
