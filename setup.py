@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
   name = 'prueba_paquete',
   packages = ['prueba_paquete'], # this must be the same as the name above
-  version = '0.1',
+  version = '0.1.1',
   description = 'A random test lib',
   author = 'Marcelo Alcaraz',
   author_email = 'marce.mmad@gmail.com',
