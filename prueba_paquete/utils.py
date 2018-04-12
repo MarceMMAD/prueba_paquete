@@ -128,4 +128,4 @@ def mark_negation_es(text, join_words=False):
         return marked
 
 def test_package_updating():
-    return "This function was recently added"
+    return "testing new change"

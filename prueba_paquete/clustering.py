@@ -93,7 +93,7 @@ class DocumentClustering:
         self._silhouette_score = 0
         self._calinski_harabaz_score = 0
         # download stop words in case they weren't already downloaded
-        # download_stop_words()
+        download_stop_words()
     
     def clustering(self, docs):
         '''
